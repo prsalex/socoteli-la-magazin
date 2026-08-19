@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Socoteli la magazin — Confidențialitate și condiții de utilizare</title>
+<style>
+  :root{
+    --text:#22323b; --fundal:#fffdf8; --card:#ffffff;
+    --accent:#C32B38; --sters:#5d6b73; --linie:#e7dcc4;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --text:#e8eef2; --fundal:#161a1d; --card:#1e2429;
+           --accent:#ff8a94; --sters:#9fb0ba; --linie:#333d45; }
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; padding:0 1rem 4rem;
+    background:var(--fundal); color:var(--text);
+    font-family:"Segoe UI",Roboto,-apple-system,Helvetica,Arial,sans-serif;
+    line-height:1.65; font-size:17px;
+  }
+  main{max-width:44rem; margin:0 auto;}
+  h1{font-size:1.9rem; line-height:1.25; margin:1.6rem 0 .3rem; color:var(--accent);}
+  h2{font-size:1.5rem; margin:2rem 0 .4rem; color:var(--accent); scroll-margin-top:5.5rem;}
+  h4{font-size:1.1rem; color:var(--accent); margin:1.3rem 0 .3rem;}
+  .sub{color:var(--sters); margin:0 0 .2rem;}
+  .data{color:var(--sters); font-size:.92rem; margin:0 0 1.2rem;}
+  .nota-ai{ color:var(--sters); font-size:.92rem; font-style:italic;
+    margin:0 0 1rem; padding-left:.8rem; border-left:.2rem solid var(--linie); }
+  .nota{font-style:italic; opacity:.85;}
+  ul{padding-left:1.3rem;} li{margin:.35rem 0;}
+  a{color:var(--accent); word-break:break-word;}
+  code{ background:var(--card); border:1px solid var(--linie);
+    border-radius:.3rem; padding:.1rem .35rem; font-size:.9em; }
+  .selector{ position:sticky; top:0; z-index:5;
+    background:var(--fundal); padding:.8rem 0; margin:0 0 1rem;
+    border-bottom:1px solid var(--linie); }
+  .selector label{font-size:.95rem; font-weight:700; margin-right:.5rem;}
+  .selector select{ font-size:1rem; padding:.4rem .6rem; border-radius:.5rem;
+    border:1px solid var(--linie); background:var(--card); color:var(--text); max-width:100%; }
+  section{ padding-top:1.2rem; border-top:2px solid var(--linie); margin-top:2.5rem; }
+  section:first-of-type{border-top:none; margin-top:1rem;}
+  footer{margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--linie);
+    color:var(--sters); font-size:.92rem;}
+</style>
+</head>
+<body>
+<main>
+
+<h1>Socoteli la magazin</h1>
+<p class="sub">Aplicația pentru Android — <code>socoteli.la.magazin</code></p>
+<p class="data">În vigoare din 3 august 2026</p>
+
+<p class="nota-ai">Aplicația a fost realizată utilizând servicii AI de coding, dezvoltarea fiind supervizată de mine. — This app was built using AI coding services, with the development supervised by me.</p>
+
+<div class="selector">
+  <label for="lang">Limbă / Language:</label>
+  <select id="lang" onchange="location.hash=this.value">
+      <option value="#ro">🇷🇴 Română</option>
+      <option value="#en">🇺🇸 English</option>
+      <option value="#tr">🇹🇷 Türkçe</option>
+      <option value="#pt">🇵🇹 Português</option>
+      <option value="#pl">🇵🇱 Polski</option>
+      <option value="#ru">🇷🇺 Русский</option>
+      <option value="#fr">🇫🇷 Français</option>
+      <option value="#de">🇩🇪 Deutsch</option>
+      <option value="#nl">🇧🇪 Nederlands</option>
+      <option value="#es">🇪🇸 Español</option>
+      <option value="#hu">🇭🇺 Magyar</option>
+      <option value="#it">🇮🇹 Italiano</option>
+  </select>
+</div>
+
+<section id="ro" lang="ro">
+  <h2>Politică de confidențialitate și condiții de utilizare</h2>
+<p class="nota">Aceasta este versiunea în limba română — cea cu valoare juridică. Traducerile din aplicație pornesc de la ea; în caz de neconcordanță, textul român prevalează.</p>
+
+<h4>Politică de confidențialitate</h4>
+<p><strong>Pe scurt: aplicația nu adună absolut nimic.</strong> Nu cere nicio permisiune, nu se conectează la internet și nu păstrează nimic despre cine o folosește — nici măcar pe telefon.</p>
+<p>Documentul se referă la aplicația <strong>Socoteli la magazin</strong> pentru Android, publicată în Google Play sub identificatorul socoteli.la.magazin.</p>
+
+<h4>Ce date sunt colectate</h4>
+<p>Aplicația nu colectează, nu păstrează și nu transmite date personale sau de orice alt fel. Concret:</p>
+<ul>
+  <li><strong>Nu cere nicio permisiune.</strong> N-are acces la cameră, microfon, contacte, locație, fișiere sau la orice altceva de pe telefon. Poți verifica în Setări → Aplicații → Socoteli la magazin → Permisiuni: lista e goală.</li>
+  <li><strong>Nu are acces la internet.</strong> Permisiunea de rețea a fost scoasă dinadins, deci sistemul nu-i permite nicio conexiune.</li>
+  <li><strong>Nu ține minte nimic.</strong> Nu salvează progresul, setările sau scorurile; la fiecare pornire începe de la zero. Fără cookie-uri, memorie locală sau baze de date.</li>
+  <li><strong>Nu utilizează conturi.</strong> Fără înregistrare, autentificare sau profil.</li>
+</ul>
+
+<h4>Reclame, plăți, urmărire</h4>
+<ul>
+  <li>Fără reclame, de niciun fel.</li>
+  <li>Fără plăți: gratuită, fără cumpărături în aplicație, abonamente sau costuri ascunse.</li>
+  <li>Fără analiză de utilizare și fără raportare de erori.</li>
+  <li>Fără identificatori de publicitate.</li>
+  <li>Fără biblioteci străine care adună date. Aplicația e construită cu Capacitor, care afișează jocul în WebView-ul telefonului; singura funcție folosită e butonul „înapoi". Nu conține niciun kit de publicitate sau analiză.</li>
+</ul>
+
+<h4>Copii</h4>
+<p>Aplicația e gândită pentru copii și respectă Google Play Families Policy. Fiindcă nu colectează nicio informație, nu există date despre copii care să fie păstrate, folosite sau împărtășite.</p>
+
+<h4>Ce nu ține de mine</h4>
+<p>Descărcarea și actualizarea se fac prin Google Play, care adună propriile date despre instalări și blocări, după regulile sale. Pentru acelea se aplică politica de confidențialitate a Google.</p>
+
+<h4>Modificări</h4>
+<p>Dacă aplicația va ajunge vreodată să adune ceva, documentul va fi schimbat înainte de publicarea acelei versiuni.</p>
+
+<h4>Condiții de utilizare</h4>
+<p><strong>Pe scurt: jocul poate fi folosit gratuit, dar drepturile de proprietate intelectuală îmi aparțin.</strong> Poate fi descărcat din Google Play, gratuit. Distribuirea pe alte platforme sau modificarea în orice fel fără acordul meu scris nu este permisă.</p>
+<p>Prin instalarea și folosirea aplicației, ești de acord cu ce urmează.</p>
+
+<h4>Ce ai voie</h4>
+<ul>
+  <li>Să descarci aplicația gratuit din Google Play și s-o folosești oricât timp vrei, fără nicio plată.</li>
+  <li>S-o folosești acasă, la școală, la grădiniță sau în cabinet, cu copiii cu care lucrezi — în scop personal sau profesional.</li>
+  <li>Să povestești despre ea și să dai mai departe linkul din magazin.</li>
+</ul>
+
+<h4>Ce nu ai voie</h4>
+<ul>
+  <li>Să distribui aplicația: să dai fișierul de instalare mai departe, să-l urci pe site-uri de descărcări, pe alte magazine sau în arhive publice, ori să-l copiezi de pe un dispozitiv pe altul. Instalarea se face din Google Play.</li>
+  <li>S-o modifici, s-o dezasamblezi sau s-o reîmpachetezi — în măsura în care legea îngăduie o astfel de interdicție.</li>
+  <li>S-o republici, întreagă sau pe bucăți, sub orice nume.</li>
+  <li>Să adaugi în ea reclame, urmărire, plăți, abonamente sau orice altă formă de a face bani din ea.</li>
+  <li>S-o vinzi, s-o închiriezi sau s-o incluzi într-un produs plătit.</li>
+  <li>Să ștergi sau să schimbi numele autorului.</li>
+</ul>
+
+<h4>Drepturi de autor</h4>
+<p>Jocul, textele lui și iconița îmi aparțin. Descărcarea îți dă dreptul s-o folosești; nu îți dă drepturi asupra ei. Jocul folosește emoticoanele telefonului pentru a afișa elemente grafice, acestea fiind proprietatea intelectuală a autorilor lor (specifică fiecărui dispozitiv).</p>
+
+<h4>Dacă vrei să faci ceva din ce scrie mai sus</h4>
+<p>Întreabă-mă. Excepțiile se dau în scris prin e-mail.</p>
+
+<h4>Fără garanții</h4>
+<p>Aplicația se oferă „așa cum este". Fac tot ce pot ca să meargă bine, dar nu pot garanta că e lipsită de greșeli sau că merge la fel pe orice telefon. Este un ajutor de învățare: nu înlocuiește școala și nu e un instrument de evaluare.</p>
+
+<h4>Fără obligația de a o întreține</h4>
+<p>Nu mă oblig să public actualizări, să repar erori sau să ofer sprijin tehnic, și pot retrage aplicația din magazin oricând.</p>
+
+<h4>Contact</h4>
+<p><a href="mailto:alexpricopsilviu@gmail.com">alexpricopsilviu@gmail.com</a></p>
+</section>
+
+<section id="en" lang="en">
+  <h2>Privacy policy and terms of use</h2>
+<p class="nota">The legally authoritative version is the Romanian one. The translation shown here starts from it; in case of any discrepancy, the Romanian text prevails.</p>
+
+<h4>Privacy policy</h4>
+<p><strong>In short: the app collects nothing at all.</strong> It requests no permissions, does not connect to the internet and stores nothing about the person using it — not even on the device.</p>
+<p>This document covers the <strong>Socoteli la magazin</strong> app for Android, published on Google Play under the identifier socoteli.la.magazin.</p>
+
+<h4>What data is collected</h4>
+<p>The app does not collect, store or transmit personal data or data of any other kind. Specifically:</p>
+<ul>
+  <li><strong>It requests no permissions.</strong> It has no access to the camera, microphone, contacts, location, files or anything else on the device. You can check under Settings → Apps → Socoteli la magazin → Permissions: the list is empty.</li>
+  <li><strong>It has no internet access.</strong> The network permission was deliberately removed, so the system allows it no connection.</li>
+  <li><strong>It remembers nothing.</strong> It does not save progress, settings or scores; every launch starts fresh. No cookies, local storage or databases.</li>
+  <li><strong>It uses no accounts.</strong> No sign-up, login or profile.</li>
+</ul>
+
+<h4>Advertising, payments, tracking</h4>
+<ul>
+  <li>No advertising, of any kind.</li>
+  <li>No payments: free, with no in-app purchases, subscriptions or hidden costs.</li>
+  <li>No usage analytics and no crash reporting.</li>
+  <li>No advertising identifiers.</li>
+  <li>No third-party data-collecting libraries. The app is built with Capacitor, which displays the game in the device's WebView; the only feature used is the "back" button. It contains no advertising or analytics SDK.</li>
+</ul>
+
+<h4>Children</h4>
+<p>The app is intended for children and complies with the Google Play Families Policy. Because it collects no information, there is no children's data to keep, use or share.</p>
+
+<h4>What is not up to me</h4>
+<p>Downloading and updating happen through Google Play, which collects its own data about installations and crashes, under its own rules. The Google privacy policy applies to those.</p>
+
+<h4>Changes</h4>
+<p>Should the app ever come to collect anything, this document will be changed before that version is published.</p>
+
+<h4>Terms of use</h4>
+<p><strong>In short: the game is free to use, but the intellectual property rights are mine.</strong> It can be downloaded from Google Play, free of charge. Distributing it on other platforms, or modifying it in any way without my written permission, is not allowed.</p>
+<p>By installing and using the app, you agree to what follows.</p>
+
+<h4>What you may do</h4>
+<ul>
+  <li>Download the app free from Google Play and use it for as long as you like, at no cost.</li>
+  <li>Use it at home, at school, in kindergarten or in your practice, with the children you work with — for personal or professional purposes.</li>
+  <li>Tell people about it and share the store link.</li>
+</ul>
+
+<h4>What you may not do</h4>
+<ul>
+  <li>Distribute the app: pass the installation file on, upload it to download sites, other stores or public archives, or copy it from one device to another. Installation happens through Google Play.</li>
+  <li>Modify, decompile or repackage it — to the extent such a restriction is permitted by law.</li>
+  <li>Republish it, in whole or in part, under any name.</li>
+  <li>Add advertising, tracking, payments, subscriptions or any other way of making money from it.</li>
+  <li>Sell it, rent it or bundle it into a paid product.</li>
+  <li>Remove or change the author's name.</li>
+</ul>
+
+<h4>Copyright</h4>
+<p>The game, its texts and its icon belong to me. Downloading gives you the right to use it; it does not give you rights over it. The game uses the device's emoji to display graphic elements; those emoji are the intellectual property of their respective authors (specific to each device).</p>
+
+<h4>If you want to do any of the above</h4>
+<p>Ask me. Exceptions are granted in writing, by e-mail.</p>
+
+<h4>No warranty</h4>
+<p>The app is provided "as is". I do my best to keep it working, but I cannot guarantee it is free of errors or that it behaves identically on every phone. It is a learning aid: it does not replace school and it is not an assessment tool.</p>
+
+<h4>No obligation to maintain</h4>
+<p>I am not obliged to publish updates, fix errors or provide technical support, and I may withdraw the app from the store at any time.</p>
+
+<h4>Contact</h4>
+<p><a href="mailto:alexpricopsilviu@gmail.com">alexpricopsilviu@gmail.com</a></p>
+</section>
+
+<section id="tr" lang="tr">
+  <h2>Gizlilik politikası ve kullanım koşulları</h2>
+<p class="nota">Hukuki açıdan geçerli olan Romence sürümdür. Buradaki çeviri ondan yola çıkılarak yapılmıştır; herhangi bir tutarsızlık durumunda Romence metin geçerlidir.</p>
+
+<h4>Gizlilik politikası</h4>
+<p><strong>Kısaca: uygulama kesinlikle hiçbir şey toplamaz.</strong> İzin istemez, internete bağlanmaz ve onu kullanan kişi hakkında hiçbir şey saklamaz — cihazda bile.</p>
+<p>Bu belge, Google Play’de socoteli.la.magazin kimliğiyle yayımlanan Android uygulaması <strong>Socoteli la magazin</strong> için geçerlidir.</p>
+
+<h4>Hangi veriler toplanır</h4>
+<p>Uygulama kişisel veya başka türden hiçbir veriyi toplamaz, saklamaz veya iletmez. Ayrıntılı olarak:</p>
+<ul>
+  <li><strong>Hiçbir izin istemez.</strong> Kameraya, mikrofona, kişilere, konuma, dosyalara veya cihazdaki başka hiçbir şeye erişimi yoktur. Ayarlar → Uygulamalar → Socoteli la magazin → İzinler bölümünden kontrol edebilirsiniz: liste boştur.</li>
+  <li><strong>İnternet erişimi yoktur.</strong> Ağ izni bilerek kaldırıldı, bu yüzden sistem hiçbir bağlantıya izin vermez.</li>
+  <li><strong>Hiçbir şeyi hatırlamaz.</strong> İlerlemeyi, ayarları veya puanları kaydetmez; her açılışta sıfırdan başlar. Çerez, yerel depolama veya veritabanı yok.</li>
+  <li><strong>Hesap kullanmaz.</strong> Kayıt, giriş veya profil yoktur.</li>
+</ul>
+
+<h4>Reklam, ödeme, takip</h4>
+<ul>
+  <li>Hiçbir türde reklam yoktur.</li>
+  <li>Ödeme yok: ücretsizdir, uygulama içi satın alma, abonelik veya gizli ücret içermez.</li>
+  <li>Kullanım analizi ve çökme raporlaması yoktur.</li>
+  <li>Reklam tanımlayıcıları yoktur.</li>
+  <li>Veri toplayan üçüncü taraf kütüphaneler yoktur. Uygulama, oyunu cihazın WebView’ında gösteren Capacitor ile yapılmıştır; kullanılan tek özellik „geri" düğmesidir. Hiçbir reklam veya analiz SDK’sı içermez.</li>
+</ul>
+
+<h4>Çocuklar</h4>
+<p>Uygulama çocuklar için tasarlanmıştır ve Google Play Families Policy ile uyumludur. Hiçbir bilgi toplamadığı için, saklanacak, kullanılacak veya paylaşılacak çocuk verisi yoktur.</p>
+
+<h4>Bana bağlı olmayanlar</h4>
+<p>İndirme ve güncelleme Google Play üzerinden yapılır; Google, kurulumlar ve çökmeler hakkında kendi verilerini kendi kurallarına göre toplar. Bunlar için Google gizlilik politikası geçerlidir.</p>
+
+<h4>Değişiklikler</h4>
+<p>Uygulama ileride herhangi bir şey toplamaya başlarsa, bu belge o sürüm yayımlanmadan önce güncellenecektir.</p>
+
+<h4>Kullanım koşulları</h4>
+<p><strong>Kısaca: oyun ücretsiz olarak kullanılabilir, ancak fikri mülkiyet hakları bana aittir.</strong> Google Play’den ücretsiz indirilebilir. Başka platformlarda dağıtılması veya yazılı iznim olmadan herhangi bir şekilde değiştirilmesi yasaktır.</p>
+<p>Uygulamayı kurup kullanarak aşağıdakileri kabul edersiniz.</p>
+
+<h4>Yapabilecekleriniz</h4>
+<ul>
+  <li>Uygulamayı Google Play’den ücretsiz indirip dilediğiniz kadar, hiçbir ödeme yapmadan kullanabilirsiniz.</li>
+  <li>Evde, okulda, anaokulunda veya iş yerinizde, birlikte çalıştığınız çocuklarla kullanabilirsiniz — kişisel veya mesleki amaçla.</li>
+  <li>Ondan söz edebilir ve mağaza bağlantısını paylaşabilirsiniz.</li>
+</ul>
+
+<h4>Yapamayacaklarınız</h4>
+<ul>
+  <li>Uygulamayı dağıtmak: kurulum dosyasını başkalarına vermek, indirme sitelerine, başka mağazalara veya herkese açık arşivlere yüklemek ya da bir cihazdan diğerine kopyalamak. Kurulum Google Play üzerinden yapılır.</li>
+  <li>Değiştirmek, kaynak koduna dönüştürmek veya yeniden paketlemek — yasanın böyle bir kısıtlamaya izin verdiği ölçüde.</li>
+  <li>Tamamını veya bir kısmını, herhangi bir adla yeniden yayımlamak.</li>
+  <li>İçine reklam, takip, ödeme, abonelik veya ondan para kazanmanın başka herhangi bir yolunu eklemek.</li>
+  <li>Satmak, kiralamak veya ücretli bir ürüne dahil etmek.</li>
+  <li>Yazar adını kaldırmak veya değiştirmek.</li>
+</ul>
+
+<h4>Telif hakkı</h4>
+<p>Oyun, metinleri ve simgesi bana aittir. İndirmek size onu kullanma hakkı verir; üzerinde hak vermez. Oyun, grafik ögeleri göstermek için cihazın emojilerini kullanır; bu emojiler kendi sahiplerinin fikri mülkiyetidir (her cihaza özgüdür).</p>
+
+<h4>Yukarıdakilerden birini yapmak isterseniz</h4>
+<p>Bana sorun. İstisnalar yazılı olarak, e-posta ile verilir.</p>
+
+<h4>Garanti yok</h4>
+<p>Uygulama „olduğu gibi" sunulur. İyi çalışması için elimden geleni yaparım, ancak hatasız olduğunu veya her telefonda aynı şekilde çalışacağını garanti edemem. Bir öğrenme aracıdır: okulun yerini tutmaz ve bir değerlendirme aracı değildir.</p>
+
+<h4>Sürdürme yükümlülüğü yok</h4>
+<p>Güncelleme yayımlamak, hataları düzeltmek veya teknik destek vermek zorunda değilim ve uygulamayı istediğim zaman mağazadan kaldırabilirim.</p>
+
+<h4>İletişim</h4>
+<p><a href="mailto:alexpricopsilviu@gmail.com">alexpricopsilviu@gmail.com</a></p>
+</section>
+
+<section id="pt" lang="pt">
+  <h2>Política de privacidade e condições de utilização</h2>
+<p class="nota">A versão com valor jurídico é a romena. A tradução aqui apresentada parte dela; em caso de discrepância, o texto romeno prevalece.</p>
+
+<h4>Política de privacidade</h4>
+<p><strong>Em resumo: a aplicação não recolhe absolutamente nada.</strong> Não pede qualquer permissão, não se liga à internet e não guarda nada sobre quem a usa — nem sequer no dispositivo.</p>
+<p>Este documento refere-se à aplicação <strong>Socoteli la magazin</strong> para Android, publicada no Google Play com o identificador socoteli.la.magazin.</p>
+
+<h4>Que dados são recolhidos</h4>
+<p>A aplicação não recolhe, não guarda nem transmite dados pessoais ou de qualquer outro tipo. Em concreto:</p>
+<ul>
+  <li><strong>Não pede qualquer permissão.</strong> Não tem acesso à câmara, ao microfone, aos contactos, à localização, aos ficheiros nem a mais nada no dispositivo. Podes verificar em Definições → Aplicações → Socoteli la magazin → Permissões: a lista está vazia.</li>
+  <li><strong>Não tem acesso à internet.</strong> A permissão de rede foi retirada de propósito, por isso o sistema não lhe permite qualquer ligação.</li>
+  <li><strong>Não guarda nada.</strong> Não guarda o progresso, as definições nem as pontuações; começa do zero em cada arranque. Sem cookies, armazenamento local ou bases de dados.</li>
+  <li><strong>Não utiliza contas.</strong> Não há registo, início de sessão nem perfil.</li>
+</ul>
+
+<h4>Publicidade, pagamentos, rastreio</h4>
+<ul>
+  <li>Sem publicidade, de qualquer tipo.</li>
+  <li>Sem pagamentos: é gratuita, sem compras dentro da aplicação, subscrições ou custos ocultos.</li>
+  <li>Sem análise de utilização e sem relatórios de falhas.</li>
+  <li>Sem identificadores de publicidade.</li>
+  <li>Sem bibliotecas de terceiros que recolham dados. A aplicação foi feita com o Capacitor, que mostra o jogo no WebView do dispositivo; a única função usada é o botão „retroceder". Não contém qualquer SDK de publicidade ou de análise.</li>
+</ul>
+
+<h4>Crianças</h4>
+<p>A aplicação destina-se a crianças e cumpre a Google Play Families Policy. Como não recolhe qualquer informação, não há dados de crianças para guardar, usar ou partilhar.</p>
+
+<h4>O que não depende de mim</h4>
+<p>A transferência e a atualização são feitas através do Google Play, que recolhe os seus próprios dados sobre instalações e falhas, segundo as suas regras. A essas aplica-se a política de privacidade da Google.</p>
+
+<h4>Alterações</h4>
+<p>Se a aplicação alguma vez vier a recolher seja o que for, este documento será alterado antes de essa versão ser publicada.</p>
+
+<h4>Condições de utilização</h4>
+<p><strong>Em resumo: o jogo pode ser usado gratuitamente, mas os direitos de propriedade intelectual são meus.</strong> Pode ser transferido do Google Play, gratuitamente. Não é permitido distribuí-lo noutras plataformas nem modificá-lo de qualquer forma sem a minha autorização escrita.</p>
+<p>Ao instalar e usar a aplicação, concordas com o que se segue.</p>
+
+<h4>O que podes fazer</h4>
+<ul>
+  <li>Transferir a aplicação gratuitamente do Google Play e usá-la o tempo que quiseres, sem qualquer pagamento.</li>
+  <li>Usá-la em casa, na escola, no jardim de infância ou no teu consultório, com as crianças com quem trabalhas — para fins pessoais ou profissionais.</li>
+  <li>Falar dela e partilhar a ligação da loja.</li>
+</ul>
+
+<h4>O que não podes fazer</h4>
+<ul>
+  <li>Distribuir a aplicação: passar o ficheiro de instalação a outros, carregá-lo em sites de transferências, noutras lojas ou em arquivos públicos, ou copiá-lo de um dispositivo para outro. A instalação faz-se através do Google Play.</li>
+  <li>Modificá-la, descompilá-la ou reempacotá-la — na medida em que a lei permita tal restrição.</li>
+  <li>Voltar a publicá-la, no todo ou em parte, com qualquer nome.</li>
+  <li>Acrescentar-lhe publicidade, rastreio, pagamentos, subscrições ou qualquer outra forma de ganhar dinheiro com ela.</li>
+  <li>Vendê-la, alugá-la ou incluí-la num produto pago.</li>
+  <li>Remover ou alterar o nome do autor.</li>
+</ul>
+
+<h4>Direitos de autor</h4>
+<p>O jogo, os seus textos e o seu ícone pertencem-me. Transferir dá-te o direito de a usar; não te dá direitos sobre ela. O jogo usa os emojis do dispositivo para mostrar elementos gráficos; esses emojis são propriedade intelectual dos respetivos autores (específicos de cada dispositivo).</p>
+
+<h4>Se quiseres fazer algo do que está acima</h4>
+<p>Pergunta-me. As exceções são dadas por escrito, por e-mail.</p>
+
+<h4>Sem garantias</h4>
+<p>A aplicação é fornecida „tal como está". Faço tudo o que posso para que funcione bem, mas não posso garantir que esteja isenta de erros nem que funcione da mesma forma em todos os telemóveis. É um auxiliar de aprendizagem: não substitui a escola e não é um instrumento de avaliação.</p>
+
+<h4>Sem obrigação de manutenção</h4>
+<p>Não sou obrigado a publicar atualizações, corrigir erros ou dar apoio técnico, e posso retirar a aplicação da loja a qualquer momento.</p>
+
+<h4>Contacto</h4>
+<p><a href="mailto:alexpricopsilviu@gmail.com">alexpricopsilviu@gmail.com</a></p>
+</section>
+
+<section id="pl" lang="pl">
+  <h2>Polityka prywatności i warunki użytkowania</h2>
+<p class="nota">Wersją wiążącą prawnie jest wersja rumuńska. Przedstawione tu tłumaczenie z niej wychodzi; w razie rozbieżności rozstrzyga tekst rumuński.</p>
+
+<h4>Polityka prywatności</h4>
+<p><strong>W skrócie: aplikacja nie zbiera absolutnie niczego.</strong> Nie prosi o żadne uprawnienia, nie łączy się z internetem i nie przechowuje niczego o osobie, która jej używa — nawet na urządzeniu.</p>
+<p>Ten dokument dotyczy aplikacji <strong>Socoteli la magazin</strong> na Androida, opublikowanej w Google Play pod identyfikatorem socoteli.la.magazin.</p>
+
+<h4>Jakie dane są zbierane</h4>
+<p>Aplikacja nie zbiera, nie przechowuje ani nie przesyła danych osobowych ani żadnych innych. Konkretnie:</p>
+<ul>
+  <li><strong>Nie prosi o żadne uprawnienia.</strong> Nie ma dostępu do aparatu, mikrofonu, kontaktów, lokalizacji, plików ani do niczego innego na urządzeniu. Możesz sprawdzić w Ustawienia → Aplikacje → Socoteli la magazin → Uprawnienia: lista jest pusta.</li>
+  <li><strong>Nie ma dostępu do internetu.</strong> Uprawnienie sieciowe zostało celowo usunięte, więc system nie pozwala jej na żadne połączenie.</li>
+  <li><strong>Niczego nie zapamiętuje.</strong> Nie zapisuje postępów, ustawień ani wyników; przy każdym uruchomieniu zaczyna od zera. Bez plików cookie, pamięci lokalnej i baz danych.</li>
+  <li><strong>Nie używa kont.</strong> Brak rejestracji, logowania i profilu.</li>
+</ul>
+
+<h4>Reklamy, płatności, śledzenie</h4>
+<ul>
+  <li>Bez reklam, żadnego rodzaju.</li>
+  <li>Bez płatności: jest darmowa, bez zakupów w aplikacji, subskrypcji i ukrytych kosztów.</li>
+  <li>Bez analizy użytkowania i bez raportowania awarii.</li>
+  <li>Bez identyfikatorów reklamowych.</li>
+  <li>Bez zewnętrznych bibliotek zbierających dane. Aplikacja jest zbudowana z użyciem Capacitora, który wyświetla grę w systemowym WebView; jedyną używaną funkcją jest przycisk „wstecz". Nie zawiera żadnego SDK reklamowego ani analitycznego.</li>
+</ul>
+
+<h4>Dzieci</h4>
+<p>Aplikacja jest przeznaczona dla dzieci i jest zgodna z Google Play Families Policy. Ponieważ nie zbiera żadnych informacji, nie ma danych dzieci do przechowywania, wykorzystywania czy udostępniania.</p>
+
+<h4>Co nie zależy ode mnie</h4>
+<p>Pobieranie i aktualizacja odbywają się przez Google Play, które zbiera własne dane o instalacjach i awariach, według własnych zasad. Do nich stosuje się polityka prywatności Google.</p>
+
+<h4>Zmiany</h4>
+<p>Jeśli aplikacja kiedykolwiek zacznie cokolwiek zbierać, ten dokument zostanie zmieniony przed opublikowaniem tej wersji.</p>
+
+<h4>Warunki użytkowania</h4>
+<p><strong>W skrócie: gra jest darmowa w użyciu, ale prawa własności intelektualnej należą do mnie.</strong> Można ją pobrać z Google Play, za darmo. Rozpowszechnianie jej na innych platformach lub modyfikowanie w jakikolwiek sposób bez mojej pisemnej zgody jest niedozwolone.</p>
+<p>Instalując i używając aplikacji, zgadzasz się na poniższe.</p>
+
+<h4>Co możesz robić</h4>
+<ul>
+  <li>Pobrać aplikację za darmo z Google Play i używać jej tak długo, jak chcesz, bez żadnej opłaty.</li>
+  <li>Używać jej w domu, w szkole, w przedszkolu lub w swoim gabinecie, z dziećmi, z którymi pracujesz — do celów osobistych lub zawodowych.</li>
+  <li>Opowiadać o niej i udostępniać link ze sklepu.</li>
+</ul>
+
+<h4>Czego nie możesz robić</h4>
+<ul>
+  <li>Rozpowszechniać aplikacji: przekazywać pliku instalacyjnego innym, umieszczać go na stronach z plikami do pobrania, w innych sklepach lub w publicznych archiwach, ani kopiować z jednego urządzenia na drugie. Instalacja odbywa się przez Google Play.</li>
+  <li>Modyfikować jej, dekompilować ani ponownie pakować — w zakresie, w jakim prawo dopuszcza takie ograniczenie.</li>
+  <li>Publikować jej ponownie, w całości lub w części, pod jakąkolwiek nazwą.</li>
+  <li>Dodawać do niej reklam, śledzenia, płatności, subskrypcji ani żadnego innego sposobu zarabiania na niej.</li>
+  <li>Sprzedawać jej, wynajmować ani włączać do płatnego produktu.</li>
+  <li>Usuwać ani zmieniać nazwiska autora.</li>
+</ul>
+
+<h4>Prawa autorskie</h4>
+<p>Gra, jej teksty i ikona należą do mnie. Pobranie daje ci prawo do jej używania; nie daje praw do niej. Gra używa emoji urządzenia do wyświetlania elementów graficznych; te emoji są własnością intelektualną ich autorów (właściwych dla każdego urządzenia).</p>
+
+<h4>Jeśli chcesz zrobić coś z powyższego</h4>
+<p>Zapytaj mnie. Wyjątki udzielane są na piśmie, e-mailem.</p>
+
+<h4>Bez gwarancji</h4>
+<p>Aplikacja jest udostępniana „w takim stanie, w jakim jest". Robię wszystko, by działała dobrze, ale nie mogę zagwarantować, że jest wolna od błędów ani że działa tak samo na każdym telefonie. To pomoc w nauce: nie zastępuje szkoły i nie jest narzędziem oceniania.</p>
+
+<h4>Bez obowiązku utrzymywania</h4>
+<p>Nie jestem zobowiązany do publikowania aktualizacji, poprawiania błędów ani zapewniania pomocy technicznej i mogę w każdej chwili wycofać aplikację ze sklepu.</p>
+
+<h4>Kontakt</h4>
+<p><a href="mailto:alexpricopsilviu@gmail.com">alexpricopsilviu@gmail.com</a></p>
+</section>
+
+<section id="ru" lang="ru">
+  <h2>Политика конфиденциальности и условия использования</h2>
+<p class="nota">Юридически действительна румынская версия. Приведённый здесь перевод сделан на её основе; в случае расхождений преобладает румынский текст.</p>
+
+<h4>Политика конфиденциальности</h4>
+<p><strong>Коротко: приложение не собирает вообще ничего.</strong> Оно не запрашивает разрешений, не подключается к интернету и не хранит ничего о том, кто им пользуется, — даже на устройстве.</p>
+<p>Этот документ относится к приложению <strong>Socoteli la magazin</strong> для Android, опубликованному в Google Play под идентификатором socoteli.la.magazin.</p>
+
+<h4>Какие данные собираются</h4>
+<p>Приложение не собирает, не хранит и не передаёт персональные или любые иные данные. Конкретно:</p>
+<ul>
+  <li><strong>Не запрашивает никаких разрешений.</strong> У него нет доступа к камере, микрофону, контактам, местоположению, файлам и ни к чему другому на устройстве. Можно проверить в Настройки → Приложения → Socoteli la magazin → Разрешения: список пуст.</li>
+  <li><strong>Нет доступа к интернету.</strong> Разрешение на сеть намеренно удалено, поэтому система не позволяет ему никаких соединений.</li>
+  <li><strong>Ничего не запоминает.</strong> Не сохраняет ни прогресс, ни настройки, ни результаты; при каждом запуске начинает с нуля. Без файлов cookie, локального хранилища и баз данных.</li>
+  <li><strong>Не использует учётные записи.</strong> Нет регистрации, входа и профиля.</li>
+</ul>
+
+<h4>Реклама, платежи, отслеживание</h4>
+<ul>
+  <li>Без рекламы, любого вида.</li>
+  <li>Без платежей: бесплатно, без покупок в приложении, подписок и скрытых расходов.</li>
+  <li>Без анализа использования и без отчётов о сбоях.</li>
+  <li>Без рекламных идентификаторов.</li>
+  <li>Без сторонних библиотек, собирающих данные. Приложение сделано на Capacitor, который показывает игру в системном WebView; используется только кнопка „назад". Оно не содержит никаких рекламных или аналитических SDK.</li>
+</ul>
+
+<h4>Дети</h4>
+<p>Приложение предназначено для детей и соответствует Google Play Families Policy. Поскольку оно не собирает никакой информации, нет данных о детях, которые можно было бы хранить, использовать или передавать.</p>
+
+<h4>Что от меня не зависит</h4>
+<p>Загрузка и обновление происходят через Google Play, который собирает собственные данные об установках и сбоях по своим правилам. К ним применяется политика конфиденциальности Google.</p>
+
+<h4>Изменения</h4>
+<p>Если приложение когда-нибудь начнёт что-либо собирать, этот документ будет изменён до публикации той версии.</p>
+
+<h4>Условия использования</h4>
+<p><strong>Коротко: игрой можно пользоваться бесплатно, но права интеллектуальной собственности принадлежат мне.</strong> Её можно загрузить из Google Play бесплатно. Распространять её на других платформах или изменять любым образом без моего письменного согласия не разрешается.</p>
+<p>Устанавливая и используя приложение, вы соглашаетесь с нижеследующим.</p>
+
+<h4>Что вам можно</h4>
+<ul>
+  <li>Загрузить приложение бесплатно из Google Play и пользоваться им сколько угодно, без какой-либо оплаты.</li>
+  <li>Пользоваться им дома, в школе, в детском саду или в своём кабинете, с детьми, с которыми вы работаете, — в личных или профессиональных целях.</li>
+  <li>Рассказывать о нём и делиться ссылкой из магазина.</li>
+</ul>
+
+<h4>Что вам нельзя</h4>
+<ul>
+  <li>Распространять приложение: передавать установочный файл другим, загружать его на сайты загрузок, в другие магазины или в публичные архивы, а также копировать его с одного устройства на другое. Установка происходит через Google Play.</li>
+  <li>Изменять, декомпилировать или переупаковывать его — в той мере, в какой закон допускает такое ограничение.</li>
+  <li>Повторно публиковать его, полностью или частично, под любым названием.</li>
+  <li>Добавлять в него рекламу, отслеживание, платежи, подписки или любой другой способ заработка на нём.</li>
+  <li>Продавать, сдавать в аренду или включать его в платный продукт.</li>
+  <li>Удалять или изменять имя автора.</li>
+</ul>
+
+<h4>Авторские права</h4>
+<p>Игра, её тексты и значок принадлежат мне. Загрузка даёт вам право пользоваться ею; она не даёт прав на неё. Игра использует эмодзи устройства для отображения графических элементов; эти эмодзи являются интеллектуальной собственностью их авторов (у каждого устройства свои).</p>
+
+<h4>Если вы хотите сделать что-то из перечисленного</h4>
+<p>Спросите меня. Исключения предоставляются письменно, по электронной почте.</p>
+
+<h4>Без гарантий</h4>
+<p>Приложение предоставляется „как есть". Я делаю всё возможное, чтобы оно работало хорошо, но не могу гарантировать, что оно свободно от ошибок или что работает одинаково на любом телефоне. Это помощь в обучении: оно не заменяет школу и не является инструментом оценивания.</p>
+
+<h4>Без обязательства поддерживать</h4>
+<p>Я не обязан выпускать обновления, исправлять ошибки или оказывать техническую поддержку и могу в любой момент убрать приложение из магазина.</p>
+
+<h4>Контакт</h4>
+<p><a href="mailto:alexpricopsilviu@gmail.com">alexpricopsilviu@gmail.com</a></p>
+</section>
+
+<section id="fr" lang="fr">
+  <h2>Politique de confidentialité et conditions d’utilisation</h2>
+<p class="nota">La version faisant foi juridiquement est la version roumaine. La traduction présentée ici en découle ; en cas de divergence, le texte roumain prévaut.</p>
+
+<h4>Politique de confidentialité</h4>
+<p><strong>En bref : l’application ne collecte absolument rien.</strong> Elle ne demande aucune autorisation, ne se connecte pas à Internet et ne conserve rien sur la personne qui l’utilise — pas même sur l’appareil.</p>
+<p>Ce document concerne l’application <strong>Socoteli la magazin</strong> pour Android, publiée sur Google Play sous l’identifiant socoteli.la.magazin.</p>
+
+<h4>Quelles données sont collectées</h4>
+<p>L’application ne collecte, ne conserve ni ne transmet aucune donnée personnelle ni d’aucune autre sorte. Concrètement :</p>
+<ul>
+  <li><strong>Elle ne demande aucune autorisation.</strong> Elle n’a pas accès à l’appareil photo, au micro, aux contacts, à la localisation, aux fichiers ni à quoi que ce soit d’autre sur l’appareil. Tu peux vérifier dans Paramètres → Applications → Socoteli la magazin → Autorisations : la liste est vide.</li>
+  <li><strong>Elle n’a pas accès à Internet.</strong> L’autorisation réseau a été retirée exprès, si bien que le système ne lui permet aucune connexion.</li>
+  <li><strong>Elle ne retient rien.</strong> Elle n’enregistre ni la progression, ni les réglages, ni les scores ; à chaque lancement, elle repart de zéro. Sans cookies, stockage local ni bases de données.</li>
+  <li><strong>Elle n’utilise pas de comptes.</strong> Aucune inscription, connexion ni profil.</li>
+</ul>
+
+<h4>Publicité, paiements, suivi</h4>
+<ul>
+  <li>Aucune publicité, d’aucune sorte.</li>
+  <li>Aucun paiement : elle est gratuite, sans achats intégrés, abonnements ni coûts cachés.</li>
+  <li>Aucune analyse d’utilisation ni rapport de plantage.</li>
+  <li>Aucun identifiant publicitaire.</li>
+  <li>Aucune bibliothèque tierce qui collecte des données. L’application est construite avec Capacitor, qui affiche le jeu dans le WebView de l’appareil ; la seule fonction utilisée est le bouton « retour ». Elle ne contient aucun SDK publicitaire ou d’analyse.</li>
+</ul>
+
+<h4>Enfants</h4>
+<p>L’application est destinée aux enfants et respecte la Google Play Families Policy. Comme elle ne collecte aucune information, il n’y a aucune donnée d’enfant à conserver, utiliser ou partager.</p>
+
+<h4>Ce qui ne dépend pas de moi</h4>
+<p>Le téléchargement et la mise à jour se font via Google Play, qui collecte ses propres données sur les installations et les plantages, selon ses propres règles. La politique de confidentialité de Google s’y applique.</p>
+
+<h4>Modifications</h4>
+<p>Si l’application venait un jour à collecter quoi que ce soit, ce document serait modifié avant la publication de cette version.</p>
+
+<h4>Conditions d’utilisation</h4>
+<p><strong>En bref : le jeu peut être utilisé gratuitement, mais les droits de propriété intellectuelle m’appartiennent.</strong> Il peut être téléchargé sur Google Play, gratuitement. Le distribuer sur d’autres plateformes ou le modifier de quelque manière que ce soit sans mon accord écrit n’est pas autorisé.</p>
+<p>En installant et en utilisant l’application, tu acceptes ce qui suit.</p>
+
+<h4>Ce que tu peux faire</h4>
+<ul>
+  <li>Télécharger l’application gratuitement sur Google Play et l’utiliser aussi longtemps que tu veux, sans aucun paiement.</li>
+  <li>L’utiliser à la maison, à l’école, à la maternelle ou dans ton cabinet, avec les enfants avec qui tu travailles — à des fins personnelles ou professionnelles.</li>
+  <li>En parler et partager le lien du magasin.</li>
+</ul>
+
+<h4>Ce que tu ne peux pas faire</h4>
+<ul>
+  <li>Distribuer l’application : transmettre le fichier d’installation à d’autres, le mettre en ligne sur des sites de téléchargement, d’autres magasins ou des archives publiques, ou le copier d’un appareil à un autre. L’installation se fait via Google Play.</li>
+  <li>La modifier, la décompiler ou la reconditionner — dans la mesure où la loi permet une telle restriction.</li>
+  <li>La republier, en tout ou en partie, sous quelque nom que ce soit.</li>
+  <li>Y ajouter de la publicité, du suivi, des paiements, des abonnements ou tout autre moyen d’en tirer de l’argent.</li>
+  <li>La vendre, la louer ou l’inclure dans un produit payant.</li>
+  <li>Supprimer ou modifier le nom de l’auteur.</li>
+</ul>
+
+<h4>Droits d’auteur</h4>
+<p>Le jeu, ses textes et son icône m’appartiennent. Le télécharger te donne le droit de l’utiliser ; il ne te donne pas de droits sur lui. Le jeu utilise les emojis de l’appareil pour afficher des éléments graphiques ; ces emojis sont la propriété intellectuelle de leurs auteurs respectifs (propres à chaque appareil).</p>
+
+<h4>Si tu veux faire quelque chose de ce qui précède</h4>
+<p>Demande-moi. Les exceptions sont accordées par écrit, par e-mail.</p>
+
+<h4>Sans garantie</h4>
+<p>L’application est fournie « telle quelle ». Je fais de mon mieux pour qu’elle fonctionne bien, mais je ne peux pas garantir qu’elle soit exempte d’erreurs ni qu’elle fonctionne de la même façon sur tous les téléphones. C’est une aide à l’apprentissage : elle ne remplace pas l’école et n’est pas un outil d’évaluation.</p>
+
+<h4>Sans obligation de maintenance</h4>
+<p>Je ne suis pas tenu de publier des mises à jour, de corriger des erreurs ou de fournir une assistance technique, et je peux retirer l’application du magasin à tout moment.</p>
+
+<h4>Contact</h4>
+<p><a href="mailto:alexpricopsilviu@gmail.com">alexpricopsilviu@gmail.com</a></p>
+</section>
+
+<section id="de" lang="de">
+  <h2>Datenschutzerklärung und Nutzungsbedingungen</h2>
+<p class="nota">Rechtlich maßgeblich ist die rumänische Fassung. Die hier gezeigte Übersetzung geht von ihr aus; bei Abweichungen hat der rumänische Text Vorrang.</p>
+
+<h4>Datenschutzerklärung</h4>
+<p><strong>Kurz gesagt: die App sammelt überhaupt nichts.</strong> Sie verlangt keine Berechtigungen, verbindet sich nicht mit dem Internet und speichert nichts über die Person, die sie nutzt — nicht einmal auf dem Gerät.</p>
+<p>Dieses Dokument betrifft die Android-App <strong>Socoteli la magazin</strong>, die im Google Play unter der Kennung socoteli.la.magazin veröffentlicht ist.</p>
+
+<h4>Welche Daten erhoben werden</h4>
+<p>Die App sammelt, speichert und übermittelt keine personenbezogenen oder sonstigen Daten. Konkret:</p>
+<ul>
+  <li><strong>Sie verlangt keine Berechtigungen.</strong> Sie hat keinen Zugriff auf Kamera, Mikrofon, Kontakte, Standort, Dateien oder irgendetwas anderes auf dem Gerät. Du kannst das unter Einstellungen → Apps → Socoteli la magazin → Berechtigungen prüfen: die Liste ist leer.</li>
+  <li><strong>Sie hat keinen Internetzugang.</strong> Die Netzwerkberechtigung wurde absichtlich entfernt, sodass das System ihr keine Verbindung erlaubt.</li>
+  <li><strong>Sie merkt sich nichts.</strong> Sie speichert weder Fortschritt noch Einstellungen noch Punkte; bei jedem Start beginnt sie von vorn. Ohne Cookies, lokalen Speicher oder Datenbanken.</li>
+  <li><strong>Sie verwendet keine Konten.</strong> Keine Registrierung, Anmeldung oder Profil.</li>
+</ul>
+
+<h4>Werbung, Zahlungen, Tracking</h4>
+<ul>
+  <li>Keine Werbung, keinerlei Art.</li>
+  <li>Keine Zahlungen: sie ist kostenlos, ohne In-App-Käufe, Abonnements oder versteckte Kosten.</li>
+  <li>Keine Nutzungsanalyse und keine Absturzberichte.</li>
+  <li>Keine Werbe-IDs.</li>
+  <li>Keine fremden Bibliotheken, die Daten sammeln. Die App ist mit Capacitor gebaut, das das Spiel im WebView des Geräts anzeigt; die einzige genutzte Funktion ist die „Zurück"-Taste. Sie enthält kein Werbe- oder Analyse-SDK.</li>
+</ul>
+
+<h4>Kinder</h4>
+<p>Die App ist für Kinder gedacht und entspricht der Google Play Families Policy. Da sie keine Informationen sammelt, gibt es keine Kinderdaten, die gespeichert, verwendet oder weitergegeben werden könnten.</p>
+
+<h4>Was nicht von mir abhängt</h4>
+<p>Herunterladen und Aktualisieren erfolgen über Google Play, das nach seinen eigenen Regeln eigene Daten über Installationen und Abstürze sammelt. Dafür gilt die Datenschutzerklärung von Google.</p>
+
+<h4>Änderungen</h4>
+<p>Sollte die App jemals irgendetwas sammeln, wird dieses Dokument vor der Veröffentlichung jener Version geändert.</p>
+
+<h4>Nutzungsbedingungen</h4>
+<p><strong>Kurz gesagt: das Spiel ist kostenlos nutzbar, aber die Rechte am geistigen Eigentum liegen bei mir.</strong> Es kann kostenlos aus Google Play heruntergeladen werden. Es auf anderen Plattformen zu verbreiten oder in irgendeiner Weise ohne meine schriftliche Erlaubnis zu verändern, ist nicht gestattet.</p>
+<p>Mit der Installation und Nutzung der App stimmst du dem Folgenden zu.</p>
+
+<h4>Was du darfst</h4>
+<ul>
+  <li>Die App kostenlos aus Google Play herunterladen und so lange nutzen, wie du willst, ohne jede Zahlung.</li>
+  <li>Sie zu Hause, in der Schule, im Kindergarten oder in deiner Praxis nutzen, mit den Kindern, mit denen du arbeitest — zu privaten oder beruflichen Zwecken.</li>
+  <li>Von ihr erzählen und den Store-Link teilen.</li>
+</ul>
+
+<h4>Was du nicht darfst</h4>
+<ul>
+  <li>Die App verbreiten: die Installationsdatei weitergeben, sie auf Download-Seiten, in anderen Stores oder in öffentlichen Archiven hochladen oder von einem Gerät auf ein anderes kopieren. Die Installation erfolgt über Google Play.</li>
+  <li>Sie verändern, dekompilieren oder neu verpacken — soweit das Gesetz eine solche Einschränkung zulässt.</li>
+  <li>Sie ganz oder teilweise unter irgendeinem Namen erneut veröffentlichen.</li>
+  <li>Werbung, Tracking, Zahlungen, Abonnements oder eine andere Art, damit Geld zu verdienen, hinzufügen.</li>
+  <li>Sie verkaufen, vermieten oder in ein kostenpflichtiges Produkt aufnehmen.</li>
+  <li>Den Namen des Autors entfernen oder ändern.</li>
+</ul>
+
+<h4>Urheberrecht</h4>
+<p>Das Spiel, seine Texte und sein Symbol gehören mir. Das Herunterladen gibt dir das Recht, es zu nutzen; es gibt dir keine Rechte daran. Das Spiel verwendet die Emojis des Geräts, um grafische Elemente darzustellen; diese Emojis sind das geistige Eigentum ihrer jeweiligen Urheber (je nach Gerät unterschiedlich).</p>
+
+<h4>Wenn du etwas vom Obigen tun möchtest</h4>
+<p>Frag mich. Ausnahmen werden schriftlich, per E-Mail, gewährt.</p>
+
+<h4>Keine Gewährleistung</h4>
+<p>Die App wird „wie besehen" bereitgestellt. Ich tue mein Bestes, damit sie gut funktioniert, kann aber nicht garantieren, dass sie fehlerfrei ist oder auf jedem Telefon gleich läuft. Sie ist eine Lernhilfe: sie ersetzt nicht die Schule und ist kein Bewertungswerkzeug.</p>
+
+<h4>Keine Pflicht zur Pflege</h4>
+<p>Ich bin nicht verpflichtet, Updates zu veröffentlichen, Fehler zu beheben oder technischen Support zu leisten, und ich kann die App jederzeit aus dem Store nehmen.</p>
+
+<h4>Kontakt</h4>
+<p><a href="mailto:alexpricopsilviu@gmail.com">alexpricopsilviu@gmail.com</a></p>
+</section>
+
+<section id="nl" lang="nl">
+  <h2>Privacybeleid en gebruiksvoorwaarden</h2>
+<p class="nota">De juridisch geldende versie is de Roemeense. De hier getoonde vertaling gaat daarvan uit; bij verschillen heeft de Roemeense tekst voorrang.</p>
+
+<h4>Privacybeleid</h4>
+<p><strong>Kort gezegd: de app verzamelt helemaal niets.</strong> Hij vraagt geen enkele toestemming, maakt geen verbinding met internet en bewaart niets over wie hem gebruikt — zelfs niet op het toestel.</p>
+<p>Dit document betreft de Android-app <strong>Socoteli la magazin</strong>, gepubliceerd in Google Play onder de identificatie socoteli.la.magazin.</p>
+
+<h4>Welke gegevens worden verzameld</h4>
+<p>De app verzamelt, bewaart en verzendt geen persoonlijke of andere gegevens. Concreet:</p>
+<ul>
+  <li><strong>Hij vraagt geen enkele toestemming.</strong> Hij heeft geen toegang tot de camera, de microfoon, de contacten, de locatie, de bestanden of iets anders op het toestel. Je kunt het controleren bij Instellingen → Apps → Socoteli la magazin → Machtigingen: de lijst is leeg.</li>
+  <li><strong>Hij heeft geen internettoegang.</strong> De netwerkmachtiging is bewust verwijderd, zodat het systeem hem geen enkele verbinding toestaat.</li>
+  <li><strong>Hij onthoudt niets.</strong> Hij bewaart geen voortgang, instellingen of scores; bij elke start begint hij opnieuw. Zonder cookies, lokale opslag of databases.</li>
+  <li><strong>Hij gebruikt geen accounts.</strong> Geen registratie, aanmelding of profiel.</li>
+</ul>
+
+<h4>Reclame, betalingen, tracking</h4>
+<ul>
+  <li>Geen reclame, van welke aard dan ook.</li>
+  <li>Geen betalingen: hij is gratis, zonder in-app-aankopen, abonnementen of verborgen kosten.</li>
+  <li>Geen gebruiksanalyse en geen crashrapportage.</li>
+  <li>Geen advertentie-identificatiegegevens.</li>
+  <li>Geen externe bibliotheken die gegevens verzamelen. De app is gebouwd met Capacitor, dat het spel in de WebView van het toestel toont; de enige gebruikte functie is de „terug"-knop. Hij bevat geen reclame- of analyse-SDK.</li>
+</ul>
+
+<h4>Kinderen</h4>
+<p>De app is bedoeld voor kinderen en voldoet aan het Google Play Families Policy. Omdat hij geen informatie verzamelt, zijn er geen kindergegevens om te bewaren, te gebruiken of te delen.</p>
+
+<h4>Wat niet van mij afhangt</h4>
+<p>Downloaden en bijwerken gebeuren via Google Play, dat volgens zijn eigen regels eigen gegevens over installaties en crashes verzamelt. Daarvoor geldt het privacybeleid van Google.</p>
+
+<h4>Wijzigingen</h4>
+<p>Mocht de app ooit iets gaan verzamelen, dan wordt dit document gewijzigd voordat die versie wordt gepubliceerd.</p>
+
+<h4>Gebruiksvoorwaarden</h4>
+<p><strong>Kort gezegd: het spel is gratis te gebruiken, maar de intellectuele-eigendomsrechten zijn van mij.</strong> Het kan gratis uit Google Play worden gedownload. Het verspreiden op andere platforms of op welke manier dan ook wijzigen zonder mijn schriftelijke toestemming is niet toegestaan.</p>
+<p>Door de app te installeren en te gebruiken, ga je akkoord met het volgende.</p>
+
+<h4>Wat je mag</h4>
+<ul>
+  <li>De app gratis uit Google Play downloaden en zo lang gebruiken als je wilt, zonder enige betaling.</li>
+  <li>Hem thuis, op school, op de kleuterschool of in je praktijk gebruiken, met de kinderen met wie je werkt — voor persoonlijke of professionele doeleinden.</li>
+  <li>Erover vertellen en de winkellink delen.</li>
+</ul>
+
+<h4>Wat je niet mag</h4>
+<ul>
+  <li>De app verspreiden: het installatiebestand doorgeven, het uploaden naar downloadsites, andere winkels of openbare archieven, of het van het ene toestel naar het andere kopiëren. De installatie gebeurt via Google Play.</li>
+  <li>Hem wijzigen, decompileren of opnieuw verpakken — voor zover de wet zo'n beperking toestaat.</li>
+  <li>Hem opnieuw publiceren, geheel of gedeeltelijk, onder welke naam dan ook.</li>
+  <li>Er reclame, tracking, betalingen, abonnementen of enige andere manier om er geld mee te verdienen aan toevoegen.</li>
+  <li>Hem verkopen, verhuren of in een betaald product opnemen.</li>
+  <li>De naam van de auteur verwijderen of wijzigen.</li>
+</ul>
+
+<h4>Auteursrecht</h4>
+<p>Het spel, zijn teksten en zijn pictogram zijn van mij. Downloaden geeft je het recht om het te gebruiken; het geeft je geen rechten erop. Het spel gebruikt de emoji van het toestel om grafische elementen weer te geven; die emoji zijn het intellectuele eigendom van hun respectieve makers (specifiek voor elk toestel).</p>
+
+<h4>Als je iets van het bovenstaande wilt doen</h4>
+<p>Vraag het me. Uitzonderingen worden schriftelijk gegeven, per e-mail.</p>
+
+<h4>Geen garantie</h4>
+<p>De app wordt „as is" geleverd. Ik doe mijn best om hem goed te laten werken, maar ik kan niet garanderen dat hij foutloos is of op elk toestel hetzelfde werkt. Het is een leerhulp: hij vervangt de school niet en is geen beoordelingsinstrument.</p>
+
+<h4>Geen onderhoudsplicht</h4>
+<p>Ik ben niet verplicht om updates te publiceren, fouten te herstellen of technische ondersteuning te bieden, en ik kan de app op elk moment uit de winkel halen.</p>
+
+<h4>Contact</h4>
+<p><a href="mailto:alexpricopsilviu@gmail.com">alexpricopsilviu@gmail.com</a></p>
+</section>
+
+<section id="es" lang="es">
+  <h2>Política de privacidad y condiciones de uso</h2>
+<p class="nota">La versión con validez jurídica es la rumana. La traducción que aquí se muestra parte de ella; en caso de discrepancia, prevalece el texto rumano.</p>
+
+<h4>Política de privacidad</h4>
+<p><strong>En resumen: la aplicación no recopila absolutamente nada.</strong> No pide ningún permiso, no se conecta a internet y no guarda nada sobre quien la usa — ni siquiera en el dispositivo.</p>
+<p>Este documento se refiere a la aplicación <strong>Socoteli la magazin</strong> para Android, publicada en Google Play con el identificador socoteli.la.magazin.</p>
+
+<h4>Qué datos se recopilan</h4>
+<p>La aplicación no recopila, no guarda ni transmite datos personales ni de ningún otro tipo. En concreto:</p>
+<ul>
+  <li><strong>No pide ningún permiso.</strong> No tiene acceso a la cámara, el micrófono, los contactos, la ubicación, los archivos ni a nada más del dispositivo. Puedes comprobarlo en Ajustes → Aplicaciones → Socoteli la magazin → Permisos: la lista está vacía.</li>
+  <li><strong>No tiene acceso a internet.</strong> El permiso de red se ha quitado a propósito, de modo que el sistema no le permite ninguna conexión.</li>
+  <li><strong>No recuerda nada.</strong> No guarda el progreso, los ajustes ni las puntuaciones; en cada inicio empieza de cero. Sin cookies, almacenamiento local ni bases de datos.</li>
+  <li><strong>No utiliza cuentas.</strong> No hay registro, inicio de sesión ni perfil.</li>
+</ul>
+
+<h4>Publicidad, pagos, seguimiento</h4>
+<ul>
+  <li>Sin publicidad, de ningún tipo.</li>
+  <li>Sin pagos: es gratuita, sin compras dentro de la aplicación, suscripciones ni costes ocultos.</li>
+  <li>Sin análisis de uso ni informes de fallos.</li>
+  <li>Sin identificadores publicitarios.</li>
+  <li>Sin bibliotecas de terceros que recopilen datos. La aplicación está hecha con Capacitor, que muestra el juego en el WebView del dispositivo; la única función utilizada es el botón „atrás". No contiene ningún SDK de publicidad o de análisis.</li>
+</ul>
+
+<h4>Niños</h4>
+<p>La aplicación está pensada para niños y cumple la Google Play Families Policy. Como no recopila ninguna información, no hay datos de niños que guardar, usar o compartir.</p>
+
+<h4>Lo que no depende de mí</h4>
+<p>La descarga y la actualización se realizan a través de Google Play, que recopila sus propios datos sobre instalaciones y fallos, según sus propias reglas. A esos se les aplica la política de privacidad de Google.</p>
+
+<h4>Cambios</h4>
+<p>Si la aplicación llegara alguna vez a recopilar algo, este documento se modificaría antes de publicar esa versión.</p>
+
+<h4>Condiciones de uso</h4>
+<p><strong>En resumen: el juego se puede usar gratis, pero los derechos de propiedad intelectual son míos.</strong> Se puede descargar de Google Play, gratis. No se permite distribuirlo en otras plataformas ni modificarlo de ninguna manera sin mi permiso por escrito.</p>
+<p>Al instalar y usar la aplicación, aceptas lo siguiente.</p>
+
+<h4>Lo que puedes hacer</h4>
+<ul>
+  <li>Descargar la aplicación gratis de Google Play y usarla todo el tiempo que quieras, sin ningún pago.</li>
+  <li>Usarla en casa, en la escuela, en el jardín de infancia o en tu consulta, con los niños con los que trabajas — con fines personales o profesionales.</li>
+  <li>Hablar de ella y compartir el enlace de la tienda.</li>
+</ul>
+
+<h4>Lo que no puedes hacer</h4>
+<ul>
+  <li>Distribuir la aplicación: pasar el archivo de instalación a otros, subirlo a sitios de descargas, a otras tiendas o a archivos públicos, o copiarlo de un dispositivo a otro. La instalación se hace a través de Google Play.</li>
+  <li>Modificarla, descompilarla o volver a empaquetarla — en la medida en que la ley permita tal restricción.</li>
+  <li>Volver a publicarla, entera o en parte, con cualquier nombre.</li>
+  <li>Añadirle publicidad, seguimiento, pagos, suscripciones o cualquier otra forma de ganar dinero con ella.</li>
+  <li>Venderla, alquilarla o incluirla en un producto de pago.</li>
+  <li>Quitar o cambiar el nombre del autor.</li>
+</ul>
+
+<h4>Derechos de autor</h4>
+<p>El juego, sus textos y su icono me pertenecen. Descargarlo te da derecho a usarlo; no te da derechos sobre él. El juego usa los emojis del dispositivo para mostrar elementos gráficos; esos emojis son propiedad intelectual de sus respectivos autores (propios de cada dispositivo).</p>
+
+<h4>Si quieres hacer algo de lo anterior</h4>
+<p>Pregúntame. Las excepciones se conceden por escrito, por correo electrónico.</p>
+
+<h4>Sin garantías</h4>
+<p>La aplicación se ofrece „tal cual". Hago todo lo posible para que funcione bien, pero no puedo garantizar que esté libre de errores ni que funcione igual en cualquier teléfono. Es una ayuda para el aprendizaje: no sustituye a la escuela y no es una herramienta de evaluación.</p>
+
+<h4>Sin obligación de mantenimiento</h4>
+<p>No estoy obligado a publicar actualizaciones, corregir errores ni ofrecer soporte técnico, y puedo retirar la aplicación de la tienda en cualquier momento.</p>
+
+<h4>Contacto</h4>
+<p><a href="mailto:alexpricopsilviu@gmail.com">alexpricopsilviu@gmail.com</a></p>
+</section>
+
+<section id="hu" lang="hu">
+  <h2>Adatvédelmi szabályzat és felhasználási feltételek</h2>
+<p class="nota">A jogilag irányadó változat a román. Az itt látható fordítás abból indul ki; eltérés esetén a román szöveg az irányadó.</p>
+
+<h4>Adatvédelmi szabályzat</h4>
+<p><strong>Röviden: az alkalmazás semmit sem gyűjt.</strong> Nem kér semmilyen engedélyt, nem csatlakozik az internethez, és semmit sem tárol arról, aki használja — még a készüléken sem.</p>
+<p>Ez a dokumentum a <strong>Socoteli la magazin</strong> Android-alkalmazásra vonatkozik, amely a Google Play áruházban a socoteli.la.magazin azonosítóval jelent meg.</p>
+
+<h4>Milyen adatokat gyűjt</h4>
+<p>Az alkalmazás nem gyűjt, nem tárol és nem továbbít személyes vagy bármilyen más adatot. Konkrétan:</p>
+<ul>
+  <li><strong>Nem kér semmilyen engedélyt.</strong> Nincs hozzáférése a kamerához, a mikrofonhoz, a névjegyekhez, a helyadatokhoz, a fájlokhoz, sem bármi máshoz a készüléken. Ellenőrizheted a Beállítások → Alkalmazások → Socoteli la magazin → Engedélyek menüben: a lista üres.</li>
+  <li><strong>Nincs internet-hozzáférése.</strong> A hálózati engedélyt szándékosan eltávolítottuk, ezért a rendszer semmilyen kapcsolatot nem enged neki.</li>
+  <li><strong>Semmit sem jegyez meg.</strong> Nem menti a haladást, a beállításokat vagy a pontszámokat; minden indításkor elölről kezdi. Sütik, helyi tárolás és adatbázisok nélkül.</li>
+  <li><strong>Nem használ fiókokat.</strong> Nincs regisztráció, bejelentkezés vagy profil.</li>
+</ul>
+
+<h4>Reklám, fizetés, követés</h4>
+<ul>
+  <li>Semmilyen reklám.</li>
+  <li>Nincs fizetés: ingyenes, alkalmazáson belüli vásárlások, előfizetések vagy rejtett költségek nélkül.</li>
+  <li>Nincs használatelemzés és nincs összeomlás-jelentés.</li>
+  <li>Nincsenek reklámazonosítók.</li>
+  <li>Nincsenek adatgyűjtő külső könyvtárak. Az alkalmazás Capacitorral készült, amely a játékot a készülék WebView-jában jeleníti meg; az egyetlen használt funkció a „vissza" gomb. Nem tartalmaz semmilyen reklám- vagy elemző SDK-t.</li>
+</ul>
+
+<h4>Gyermekek</h4>
+<p>Az alkalmazás gyermekeknek készült, és megfelel a Google Play Families Policy előírásainak. Mivel semmilyen információt nem gyűjt, nincs gyermekekre vonatkozó adat, amelyet tárolni, felhasználni vagy megosztani lehetne.</p>
+
+<h4>Ami nem rajtam múlik</h4>
+<p>A letöltés és a frissítés a Google Play áruházon keresztül történik, amely saját szabályai szerint saját adatokat gyűjt a telepítésekről és az összeomlásokról. Azokra a Google adatvédelmi szabályzata vonatkozik.</p>
+
+<h4>Módosítások</h4>
+<p>Ha az alkalmazás valaha bármit is gyűjteni kezdene, ez a dokumentum az adott verzió közzététele előtt módosulni fog.</p>
+
+<h4>Felhasználási feltételek</h4>
+<p><strong>Röviden: a játék ingyenesen használható, de a szellemi tulajdonhoz fűződő jogok az enyéim.</strong> Ingyenesen letölthető a Google Play áruházból. Más platformokon való terjesztése vagy bármilyen módosítása írásos engedélyem nélkül nem megengedett.</p>
+<p>Az alkalmazás telepítésével és használatával elfogadod az alábbiakat.</p>
+
+<h4>Amit szabad</h4>
+<ul>
+  <li>Letöltheted az alkalmazást ingyen a Google Play áruházból, és annyi ideig használhatod, ameddig csak akarod, mindenféle fizetés nélkül.</li>
+  <li>Használhatod otthon, iskolában, óvodában vagy a rendelődben, azokkal a gyerekekkel, akikkel dolgozol — személyes vagy szakmai célra.</li>
+  <li>Mesélhetsz róla, és megoszthatod az áruházi hivatkozást.</li>
+</ul>
+
+<h4>Amit nem szabad</h4>
+<ul>
+  <li>Terjeszteni az alkalmazást: a telepítőfájlt továbbadni, letöltőoldalakra, más áruházakba vagy nyilvános archívumokba feltölteni, illetve egyik készülékről a másikra másolni. A telepítés a Google Play áruházon keresztül történik.</li>
+  <li>Módosítani, visszafejteni vagy újracsomagolni — annyiban, amennyiben a törvény az ilyen korlátozást megengedi.</li>
+  <li>Újra közzétenni, egészben vagy részben, bármilyen néven.</li>
+  <li>Reklámot, követést, fizetést, előfizetést vagy bármilyen más pénzszerzési módot hozzáadni.</li>
+  <li>Eladni, bérbe adni vagy fizetős termékbe foglalni.</li>
+  <li>A szerző nevét eltávolítani vagy megváltoztatni.</li>
+</ul>
+
+<h4>Szerzői jog</h4>
+<p>A játék, a szövegei és az ikonja az enyémek. A letöltés jogot ad a használatára; nem ad jogokat felette. A játék a készülék emojijait használja grafikai elemek megjelenítésére; ezek az emojik a saját szerzőik szellemi tulajdonát képezik (készülékenként eltérőek).</p>
+
+<h4>Ha a fentiek bármelyikét szeretnéd megtenni</h4>
+<p>Kérdezz meg. A kivételeket írásban, e-mailben adom meg.</p>
+
+<h4>Garancia nélkül</h4>
+<p>Az alkalmazást „ahogy van" formában biztosítom. Mindent megteszek, hogy jól működjön, de nem tudom garantálni, hogy hibamentes, sem azt, hogy minden telefonon ugyanúgy működik. Ez egy tanulási segédeszköz: nem helyettesíti az iskolát, és nem értékelő eszköz.</p>
+
+<h4>Karbantartási kötelezettség nélkül</h4>
+<p>Nem vagyok köteles frissítéseket kiadni, hibákat javítani vagy technikai támogatást nyújtani, és bármikor visszavonhatom az alkalmazást az áruházból.</p>
+
+<h4>Kapcsolat</h4>
+<p><a href="mailto:alexpricopsilviu@gmail.com">alexpricopsilviu@gmail.com</a></p>
+</section>
+
+<section id="it" lang="it">
+  <h2>Informativa sulla privacy e condizioni d’uso</h2>
+<p class="nota">La versione giuridicamente valida è quella rumena. La traduzione qui riportata parte da essa; in caso di discrepanza prevale il testo rumeno.</p>
+
+<h4>Informativa sulla privacy</h4>
+<p><strong>In breve: l’applicazione non raccoglie assolutamente nulla.</strong> Non chiede alcun permesso, non si collega a internet e non conserva nulla su chi la usa — nemmeno sul dispositivo.</p>
+<p>Questo documento riguarda l’applicazione <strong>Socoteli la magazin</strong> per Android, pubblicata su Google Play con l’identificativo socoteli.la.magazin.</p>
+
+<h4>Quali dati vengono raccolti</h4>
+<p>L’applicazione non raccoglie, non conserva né trasmette dati personali o di qualsiasi altro tipo. Nello specifico:</p>
+<ul>
+  <li><strong>Non chiede alcun permesso.</strong> Non ha accesso alla fotocamera, al microfono, ai contatti, alla posizione, ai file né a nient’altro sul dispositivo. Puoi verificarlo in Impostazioni → App → Socoteli la magazin → Autorizzazioni: l’elenco è vuoto.</li>
+  <li><strong>Non ha accesso a internet.</strong> Il permesso di rete è stato rimosso di proposito, così il sistema non le consente alcuna connessione.</li>
+  <li><strong>Non ricorda nulla.</strong> Non salva i progressi, le impostazioni o i punteggi; a ogni avvio riparte da zero. Senza cookie, memoria locale o database.</li>
+  <li><strong>Non usa account.</strong> Nessuna registrazione, accesso o profilo.</li>
+</ul>
+
+<h4>Pubblicità, pagamenti, tracciamento</h4>
+<ul>
+  <li>Nessuna pubblicità, di alcun tipo.</li>
+  <li>Nessun pagamento: è gratuita, senza acquisti in-app, abbonamenti o costi nascosti.</li>
+  <li>Nessuna analisi d’uso né segnalazione di arresti anomali.</li>
+  <li>Nessun identificatore pubblicitario.</li>
+  <li>Nessuna libreria di terze parti che raccolga dati. L’applicazione è realizzata con Capacitor, che mostra il gioco nella WebView del dispositivo; l’unica funzione usata è il pulsante „indietro". Non contiene alcun SDK pubblicitario o di analisi.</li>
+</ul>
+
+<h4>Bambini</h4>
+<p>L’applicazione è pensata per i bambini e rispetta la Google Play Families Policy. Poiché non raccoglie alcuna informazione, non ci sono dati dei bambini da conservare, usare o condividere.</p>
+
+<h4>Ciò che non dipende da me</h4>
+<p>Il download e l’aggiornamento avvengono tramite Google Play, che raccoglie propri dati sulle installazioni e sugli arresti anomali, secondo le proprie regole. A quelli si applica l’informativa sulla privacy di Google.</p>
+
+<h4>Modifiche</h4>
+<p>Se l’applicazione dovesse mai raccogliere qualcosa, questo documento verrà modificato prima della pubblicazione di quella versione.</p>
+
+<h4>Condizioni d’uso</h4>
+<p><strong>In breve: il gioco può essere usato gratuitamente, ma i diritti di proprietà intellettuale sono miei.</strong> Può essere scaricato da Google Play, gratuitamente. Non è consentito distribuirlo su altre piattaforme né modificarlo in alcun modo senza il mio permesso scritto.</p>
+<p>Installando e usando l’applicazione, accetti quanto segue.</p>
+
+<h4>Cosa puoi fare</h4>
+<ul>
+  <li>Scaricare l’applicazione gratuitamente da Google Play e usarla per tutto il tempo che vuoi, senza alcun pagamento.</li>
+  <li>Usarla a casa, a scuola, all’asilo o nel tuo studio, con i bambini con cui lavori — per scopi personali o professionali.</li>
+  <li>Parlarne e condividere il link dello store.</li>
+</ul>
+
+<h4>Cosa non puoi fare</h4>
+<ul>
+  <li>Distribuire l’applicazione: passare il file di installazione ad altri, caricarlo su siti di download, altri store o archivi pubblici, o copiarlo da un dispositivo all’altro. L’installazione avviene tramite Google Play.</li>
+  <li>Modificarla, decompilarla o ripacchettizzarla — nella misura in cui la legge consente una tale restrizione.</li>
+  <li>Ripubblicarla, in tutto o in parte, con qualsiasi nome.</li>
+  <li>Aggiungervi pubblicità, tracciamento, pagamenti, abbonamenti o qualsiasi altro modo di guadagnare con essa.</li>
+  <li>Venderla, noleggiarla o includerla in un prodotto a pagamento.</li>
+  <li>Rimuovere o modificare il nome dell’autore.</li>
+</ul>
+
+<h4>Diritti d’autore</h4>
+<p>Il gioco, i suoi testi e la sua icona appartengono a me. Scaricarlo ti dà il diritto di usarlo; non ti dà diritti su di esso. Il gioco usa le emoji del dispositivo per mostrare elementi grafici; queste emoji sono proprietà intellettuale dei rispettivi autori (specifiche di ciascun dispositivo).</p>
+
+<h4>Se vuoi fare qualcosa di quanto sopra</h4>
+<p>Chiedimelo. Le eccezioni sono concesse per iscritto, via e-mail.</p>
+
+<h4>Senza garanzie</h4>
+<p>L’applicazione è fornita „così com’è". Faccio del mio meglio perché funzioni bene, ma non posso garantire che sia priva di errori né che funzioni allo stesso modo su ogni telefono. È un aiuto all’apprendimento: non sostituisce la scuola e non è uno strumento di valutazione.</p>
+
+<h4>Senza obbligo di manutenzione</h4>
+<p>Non sono tenuto a pubblicare aggiornamenti, correggere errori o fornire assistenza tecnica, e posso ritirare l’applicazione dallo store in qualsiasi momento.</p>
+
+<h4>Contatto</h4>
+<p><a href="mailto:alexpricopsilviu@gmail.com">alexpricopsilviu@gmail.com</a></p>
+</section>
+
+<footer>
+  <p>Socoteli la magazin — Alex Pricop. Toate drepturile rezervate.</p>
+</footer>
+
+<script>
+  /* ține selectorul potrivit cu secțiunea din adresă */
+  (function(){
+    var sel=document.getElementById('lang');
+    function sync(){
+      var h=location.hash||'#ro';
+      for(var i=0;i<sel.options.length;i++){
+        if(sel.options[i].value===h){ sel.selectedIndex=i; return; }
+      }
+    }
+    window.addEventListener('hashchange', sync);
+    sync();
+  })();
+</script>
+
+</main>
+</body>
+</html>
